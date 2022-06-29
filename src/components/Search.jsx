@@ -11,7 +11,7 @@ function Search() {
 
     const submitHandler = (e) => {
         e.preventDefault();
-        navigate('/searched/' + input)
+        navigate('/recipe-application/searched/' + input)
     }
 
     return (

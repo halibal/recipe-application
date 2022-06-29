@@ -9,19 +9,19 @@ import { NavLink } from 'react-router-dom'; // NavLink gives you the option for 
 function Category() {
     return (
         <List>
-            <SLink to={'/cuisine/Italian'}>
+            <SLink to={'/recipe-application/cuisine/Italian'}>
                 <FaPizzaSlice />
                 <h4>Italian</h4>
             </SLink>
-            <SLink to={'/cuisine/American'}>
+            <SLink to={'/recipe-application/cuisine/American'}>
                 <FaHamburger />
                 <h4>American</h4>
             </SLink>
-            <SLink to={'/cuisine/Thai'}>
+            <SLink to={'/recipe-application/cuisine/Thai'}>
                 <GiNoodles />
                 <h4>Thai</h4>
             </SLink>
-            <SLink to={'/cuisine/Korean'}>
+            <SLink to={'/recipe-application/cuisine/Korean'}>
                 <GiChopsticks />
                 <h4>Korean</h4>
             </SLink>
